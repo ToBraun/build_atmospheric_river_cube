@@ -1,0 +1,9 @@
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.DS_Store
+build_log.txt
+build_xcube_progress.json
+final_build.log
+*.tmp
+.env
