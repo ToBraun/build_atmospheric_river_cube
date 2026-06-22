@@ -1,7 +1,7 @@
 # The PIKART atmospheric river datacube
 An open accessible datacube for global analyses of atmospheric rivers and extreme precipitation, based on the [PIKART catalog](https://github.com/PIKART-Catalog/Vallejo-Bernal_Braun_etal_2025): a global, 0.5°, 6-hourly catalog of atmospheric rivers (PIKART v1.1) with co-located ERA5 precipitation variables, spanning 1940–2023. Extensive documentation is provided on the [PIKART website](https://ar.pik-potsdam.de).
 
-**References:**
+## References
 - Vallejo-Bernal, S. M. & Braun, T., Marwan, N., & Kurths, J. (2025). *PIKART: A comprehensive global catalog of atmospheric rivers.* JGR Atmospheres, 130, e2024JD041869. https://doi.org/10.1029/2024JD041869
 - Vallejo-Bernal, S., Braun, T., Marwan, N., & Kurths, J. (2026). *PIKART Version 1.1: Release Notes.* https://doi.org/10.31223/X5PB5Z
 
@@ -20,10 +20,10 @@ re-running picks up from the cube's last successful timestamp.
 - A writable S3 bucket; credentials in env vars `S3_USER_STORAGE_*`
 
 ## Contributors
-Tobias Braun
-Sara M. Vallejo-Bernal
-Norbert Marwan
-Juergen Kurths
+- Tobias Braun
+- Sara M. Vallejo-Bernal
+- Norbert Marwan
+- Juergen Kurths
 
 ## Acknowledgements
 The cube was built by **Tobias Braun** within the ARNETLAB project (ESA Living Planet Fellowship 2024-2026, grant no. 4000144018/24/I-DT-lr, access to DeepESDL through NoR) with the kind assisstance of **Tejas Morbagal Harish** (Brockmann Consult GmbH) and **Anca Anghelea** (European Space Agency).
